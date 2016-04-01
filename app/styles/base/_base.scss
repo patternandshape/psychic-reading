@@ -27,7 +27,7 @@ h1 {
   letter-spacing: .5em;
   -webkit-text-stroke: 3px magenta;
   &:hover {
-    text-decoration: none;
+    text-decoration: none!important;
     color: lighten(magenta, 25%);
   }
 }
@@ -37,11 +37,19 @@ p {
 }
 
 a {
-  color: magenta;
-  text-decoration: none;
+  color: magenta!important;
+  text-decoration: none!important;
   &:hover {
-    text-decoration: none;
-    color: red;
+    color: magenta!important;
+    text-decoration: none!important;
+  }
+  &:active {
+    color: magenta!important;
+    text-decoration: none!important;
+  }
+  &:visited {
+    color: magenta!important;
+    text-decoration: none!important;
   }
 }
 
