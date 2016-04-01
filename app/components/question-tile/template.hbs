@@ -1,1 +1,5 @@
-<li>{{#link-to 'question' question.id}}{{question.body}} asked by {{question.author}}{{/link-to}}</li>
+<li class="question-title">
+  {{#link-to 'question' question.id}}{{question.body}}
+  <p class="author-list">asked by {{question.author}}</p>
+  {{/link-to}}
+</li>

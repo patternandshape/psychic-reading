@@ -1,3 +1,14 @@
 button {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
   color: black;
+  letter-spacing: 0.1em;
+  border-radius: 5px;
+  border: none;
+  background: RoyalBlue ;
+  font-weight: 400;
+  &:hover {
+    background: white;
+  }
 }
