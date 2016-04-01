@@ -1,17 +1,20 @@
 { "questions": [{
 "id": 0,
-    "question": "Who will win the upcoming US presidential election?",
-    "author": "Molly Curtin"
+    "author": "Molly Curtin",
+    "body": "Who will win the upcoming US presidential election?",
+    "notes": "Morale is low."
   },
     {
     "id": 1,
-    "question": "Will there be more dry food in my bowl than there was yesterday?",
-    "author": "Lord Summerisle"
+    "author": "Lord Summerisle",
+    "body": "Will there be more dry food in my bowl than there was yesterday?",
+    "notes": "Will stand by impatiently for your answer."
   },
     {
     "id": 2,
-    "question": "Will I find happiness through coding?",
-    "author": "Molly Curtin"
+    "author": "Molly Curtin",
+    "body": "Will I find happiness through coding?",
+    "notes": "Sources say yes."
   }],
 
   "authors": [{

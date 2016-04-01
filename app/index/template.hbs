@@ -1,1 +1,5 @@
-{{outlet}}
+<ul>
+  {{#each model as |question|}}
+    <li>{{question.body}} asked by {{question.author}}</li>
+  {{/each}}
+</ul>
