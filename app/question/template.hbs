@@ -1,5 +1,16 @@
-<h3>{{question.body}}</h3>
+<h3>{{model.body}}</h3>
 <p>{{question.notes}}</p>
 
-{{edit-question question=model edit="edit"}}
+{{edit-question question=model edit2="edit3"}}
 {{question-detail question=model}}
+
+<div class="new-answer">
+  {{new-answer question=model saveAnswer2="saveAnswer3"}}
+  <ul>
+    {{#each model.question.answers as |answer|}}
+      <li>{{answer.author}}</li>
+      <li>{{answer.body}}</li>
+    {{/each}}
+  </ul>
+
+</div>
