@@ -7,6 +7,7 @@
 }
 
 .question-title {
+  min-width: 600px;
   font-size: 1.2em;
   background: #f0e8fc;
   padding: 20px 20px;
@@ -19,11 +20,35 @@
     font-weight: bold;
     color:black!important;
     &:hover{
-      color: magenta!important;
+      color: #ff66ff!important;
     }
   }
 }
 
-.author-list {
+h4 {
   color: RoyalBlue;
+}
+
+h3 {
+  text-align: center;
+}
+
+.new-answer {
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.form-style {
+  background: #f0e8fc;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  min-width: 400px;
+  max-width: 600px;
+  padding: 10px 0;
+}
+
+.edit-question {
+  margin-top: 50px;
 }
