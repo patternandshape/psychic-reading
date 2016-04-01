@@ -6,7 +6,7 @@
 <div class="new-answer">
   {{new-answer question=model saveAnswer2="saveAnswer3"}}
   <ul>
-    {{#each model.question.answers as |answer|}}
+    {{#each model.answers as |answer|}}
       <li>{{answer.author}}</li>
       <li>{{answer.body}}</li>
     {{/each}}
