@@ -1,0 +1,22 @@
+{ "questions": [{
+"id": 0,
+    "question": "Who will win the upcoming US presidential election?",
+    "author": "Molly Curtin"
+  },
+    {
+    "id": 1,
+    "question": "Will there be more dry food in my bowl than there was yesterday?",
+    "author": "Lord Summerisle"
+  },
+    {
+    "id": 2,
+    "question": "Will I find happiness through coding?",
+    "author": "Molly Curtin"
+  }],
+
+  "authors": [{
+    "name": "Molly Curtin"
+  }, {
+    "name": "Lord Summerisle"
+  }]
+}
