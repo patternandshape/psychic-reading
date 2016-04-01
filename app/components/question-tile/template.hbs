@@ -1,3 +1,1 @@
-<li>{{question.body}} asked by {{question.author}}</li>
-
-{{edit-question question=question edit="edit"}}
+<li>{{#link-to 'question' question.id}}{{question.body}} asked by {{question.author}}{{/link-to}}</li>
