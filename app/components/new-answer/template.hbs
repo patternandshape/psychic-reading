@@ -1,0 +1,16 @@
+<h4>Have an Answer?</h4>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="author">Name:</label>
+          {{input value=author class="author"}}
+        </div>
+
+        <div class="form-group comment-body">
+          <label for="body">Answer:</label>
+          {{input value=body class="body"}}
+        </div>
+
+        <button {{action 'saveAnswer1' answer}}>Post</button>
+      </form>
+    </div>
