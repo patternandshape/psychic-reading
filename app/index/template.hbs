@@ -1,5 +1,7 @@
 <ul>
   {{#each model as |question|}}
-    <li>{{question.body}} asked by {{question.author}}</li>
+  {{question-tile question=question edit="edit"}}
   {{/each}}
 </ul>
+
+{{new-question save2="save3"}}
