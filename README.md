@@ -8,7 +8,7 @@ April 1, 2016
 
 ### Description
 
-This message board is made using Ember and Firebase and includes capabilities to edit, delete and answer individual questions as well as add new ones.
+This message board is made using Ember and Firebase and includes capabilities to edit and answer individual questions as well as add new questions.
 
 ## Installation
 
@@ -23,14 +23,13 @@ This message board is made using Ember and Firebase and includes capabilities to
 
 * Ember
 * Handlebars
+ * Firebase
 * NPM
 * Node
 * Bower
-* Firebase
 * HTML
 * SCSS
 * Git
-* Bootstrap
 * Google Fonts
 * Font Awesome
 
