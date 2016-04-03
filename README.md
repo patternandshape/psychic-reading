@@ -23,7 +23,7 @@ This message board is made using Ember and Firebase and includes capabilities to
 
 * Ember
 * Handlebars
- * Firebase
+* Firebase
 * NPM
 * Node
 * Bower
