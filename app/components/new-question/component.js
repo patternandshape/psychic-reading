@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   addNewQuestion: false,
   actions: {
-    questionFormShow(){
+    questionFormShow() {
       this.set('addNewQuestion', true);
     },
-    save1(){
+    save1() {
       var params = {
         author: this.get('author'),
         body: this.get('body'),

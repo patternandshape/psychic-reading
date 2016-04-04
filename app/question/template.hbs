@@ -5,10 +5,10 @@
 </div>
 <div class="new-answer">
   {{new-answer question=model saveAnswer2="saveAnswer3"}}
-  </div>
-  <ul>
-    {{#each model.answers as |answer|}}
-      <h3>{{answer.body}}</h3>
-      <h4>Answer from {{answer.author}}</h4>
-    {{/each}}
-  </ul>
+</div>
+<ul>
+  {{#each model.answers as |answer|}}
+    <h3>{{answer.body}}</h3>
+    <h4>Answer from {{answer.author}}</h4>
+  {{/each}}
+</ul>
