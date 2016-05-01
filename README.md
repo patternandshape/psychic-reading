@@ -27,9 +27,9 @@ This message board is made using Ember and Firebase and includes capabilities to
 * NPM
 * Node
 * Bower
+* Git
 * HTML
 * SCSS
-* Git
 * Google Fonts
 * Font Awesome
 
